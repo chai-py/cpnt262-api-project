@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather DashBoard</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Good day, <span id="user-name">User</span>! let's see what's happening in the skies! </h1>
+    </header>
+    <main>
+        <form id="weather-form">
+            <label for="city">City Name:</label>
+            <input type="text" id="city" name="city" placeholder=" Enter Location" required>
+        </br>
+        
+
+            <label for="unit-toggle">Temperature Unit:</label>
+            <select id="unit-toggle">
+                <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+            </select>
+            
+        </br>
+
+            <label for="name">User Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your name">
+
+            <button type="submit">Check Forecast</button>
+        </form>
+
+        <section id="weather-data">
+            <h2>Current Weather</h2>
+            <div id="weather-result"></div>
+        </section>
+    </main>
+    
+</body>
+</html>
