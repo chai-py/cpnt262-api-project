@@ -1,5 +1,5 @@
 // Define all variables
-const apiKey = '5f5fe125aeb7f2a2eab6c0cfb3ebac32';
+const apiKey = '__API_KEY__';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather'; // OpenWeather API
 
 window.onload = () => {
